@@ -6,7 +6,10 @@ body{
     
     background-color: white;
 }
-h1{ color: darkolivegreen;
+h1{ color: white;
+    font-size: 40px;
+   
+ 
 
 }
 
@@ -23,10 +26,33 @@ a:hover{
 
 }
 
-nav{ color: rgb(74, 47, 0);
-    gap: 40px;
-    font-size: 20px;
+nav{ 
+    background-color: darkolivegreen;
+    font-size: 70px;
     
+    list-style: none;
+    gap: 40px;
+    display: flex;
+	
+}
+nav li a h1{
+ color:white;
+  text-decoration: none;
+  font-weight: bold;
+  align-items: center; 
+  padding: 1rem;
+	
+	
+}
+
+button{
+   
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+   
+
 }
 
 img{
@@ -47,6 +73,7 @@ aside{
   margin-left: 15px;
   float: left;
   font-style: italic;
+  color: white;
   background-color: rgb(74, 47, 0);
 }
 
