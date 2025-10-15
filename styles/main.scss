@@ -1,0 +1,5 @@
+@use "vendors/normalize";
+@use "partials/colors";
+
+.navhead{
+  background-color: colors.$primary-color;
