@@ -15,11 +15,6 @@ h1{
 }
 
 
-
-
-
-
-
 nav{ 
    
     font-size: 70px;
@@ -64,10 +59,20 @@ aside{
   margin-left: 15px;
   float: left;
   font-style: italic;
+  background-color: rgb(74, 47, 0);
   
 }
 
 footer{ color: rgb(74, 47, 0);
 float: center;
+
+}
+
+
+.birdbox{
+background-color:rgb(74, 47, 0);
+margin:10m;
+padding:1em;
+
 
 }
