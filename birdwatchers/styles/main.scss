@@ -1,6 +1,22 @@
-@use "vendor/normalize";
-@use "vendor/colors";
+@use "styles/vendor/_normalize.scss";
+@use "styles/partials/_colors.scss";
 
-.primary{
+
+.navhead{
   background-color: colors.$primary-color;
+   padding: 1em;
 }
+
+ul button a{
+  background-color: colors.$secondary-color;
+}
+.sidebar{
+background-color:white;
+align-items: center;
+
+}
+aside{
+background-color: colors.$bg-darker;
+
+}body {
+  background-color: $bg-dar
