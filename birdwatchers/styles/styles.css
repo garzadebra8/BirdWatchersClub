@@ -63,4 +63,16 @@ aside{
   
 }
 
-footer{ color: rg
+footer{ color: rgb(74, 47, 0);
+float: center;
+
+}
+
+
+.birdbox{
+background-color:rgb(74, 47, 0);
+margin:10m;
+padding:1em;
+
+
+}
